@@ -1,0 +1,141 @@
+{
+  "configVersion": 1,
+  "timestamp": 1592372608364,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main-es2015.js",
+        "/main-es5.js",
+        "/manifest.webmanifest",
+        "/polyfills-es2015.js",
+        "/polyfills-es5.js",
+        "/runtime-es2015.js",
+        "/runtime-es5.js",
+        "/styles.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/css/bootstrap.min.css",
+        "/assets/css/owl.carousel.min.css",
+        "/assets/css/style.css",
+        "/assets/css/themify-icons.css",
+        "/assets/fonts/themify.eot",
+        "/assets/fonts/themify.svg",
+        "/assets/fonts/themify.ttf",
+        "/assets/fonts/themify.woff",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/images/appleicon.png",
+        "/assets/images/client-logos.png",
+        "/assets/images/client.png",
+        "/assets/images/dualphone.png",
+        "/assets/images/graphic.png",
+        "/assets/images/iphonex.png",
+        "/assets/images/logo.png",
+        "/assets/images/perspective.png",
+        "/assets/images/playicon.png",
+        "/assets/images/screen1.jpg",
+        "/assets/images/screen2.jpg",
+        "/assets/images/screen3.jpg",
+        "/assets/js/bootstrap.bundle.min.js",
+        "/assets/js/jquery-3.2.1.min.js",
+        "/assets/js/owl.carousel.min.js",
+        "/assets/js/script.js"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "weather-api",
+      "patterns": [
+        "https:\\/\\/api\\.openweathermap\\.org\\/data\\/2\\.5\\/weather\\?q=",
+        "http:\\/\\/api\\.geonames\\.org\\/timezoneJSON\\?formatted=true&"
+      ],
+      "strategy": "freshness",
+      "maxSize": 100,
+      "maxAge": 86400000,
+      "timeoutMs": 10000,
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/assets/css/bootstrap.min.css": "3e035b1a98c46848c442529af959270bae59471b",
+    "/assets/css/owl.carousel.min.css": "5de44b60c38313f2762fa00d4eee86bcd2a349ed",
+    "/assets/css/style.css": "8ace07d2e0fc8ea3303c2754d31db69655bf1ec7",
+    "/assets/css/themify-icons.css": "3564b2b3dfd216ddfb26832e056d3b85b69a6663",
+    "/assets/fonts/themify.eot": "df12a0942cf1933f0915fe3d910fa2379f092d83",
+    "/assets/fonts/themify.svg": "f5af112fb5aa7c4f665acc21a38b035bbb62327c",
+    "/assets/fonts/themify.ttf": "5bb1fe69452a484566a81076af7567728fe7e43b",
+    "/assets/fonts/themify.woff": "9394f35bd2addd24666b79bfc36d4f9d247cb01d",
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/images/appleicon.png": "4c15514b6441ffe65313f2d10d8022a49e0a5d57",
+    "/assets/images/client-logos.png": "7067756b02cd21918c3c7a04900f8eedd7aa3d2c",
+    "/assets/images/client.png": "c3fb4190fb9052bf13bd635893b66b3b156f977b",
+    "/assets/images/dualphone.png": "6d40dbb5dc98c6d260d774fc2c34a25cb5e04c34",
+    "/assets/images/graphic.png": "e815bbd8763640ea5566f072a9e58bcf85398439",
+    "/assets/images/iphonex.png": "d3e390759c5ad12ce1f96f33d5edebe951ebed65",
+    "/assets/images/logo.png": "fd5075897b81a3b0e062c7012ef040d596460ef6",
+    "/assets/images/perspective.png": "bfb42c2f3655abb1d5d9c56fea7e54a0757b08c9",
+    "/assets/images/playicon.png": "580811759e0fc14f70d29eab49b23e7762113087",
+    "/assets/images/screen1.jpg": "72db5d796e4e1a380a8ba308a4d017ecf534cc20",
+    "/assets/images/screen2.jpg": "57f576d003e1eed18be8731f3fcd70c46279140b",
+    "/assets/images/screen3.jpg": "f6446583b9128996ba035411dec271715edd2fd2",
+    "/assets/js/bootstrap.bundle.min.js": "46d1f82f1ff4224130c6153a8a6db457477b7097",
+    "/assets/js/jquery-3.2.1.min.js": "1055018c28ab41087ef9ccefe411606893dabea2",
+    "/assets/js/owl.carousel.min.js": "1a99890b57c9859a622337ed0b2f989d6e30cc0e",
+    "/assets/js/script.js": "549e7843265ef7cbd995363b9fc711193dba9586",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "75d4d831f4131c057c8c8bcaa4d49d11e3e2236c",
+    "/main-es2015.js": "5266b268af258d172bfdbd382fa4ea7a0cc83e03",
+    "/main-es5.js": "b4766d81d378c7ae09470622269a3b027af65b51",
+    "/manifest.webmanifest": "4069b65bc560b0803566de125d775c9825bf20ca",
+    "/polyfills-es2015.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
+    "/polyfills-es5.js": "8aa26ea87b9958c6bd13b7c257c0e9940438e684",
+    "/runtime-es2015.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/runtime-es5.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/styles.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}

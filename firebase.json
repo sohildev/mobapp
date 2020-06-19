@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/MobApp-angular-pwa",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
